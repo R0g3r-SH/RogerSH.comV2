@@ -8,7 +8,7 @@ function App() {
     <Router>
       <div className="relative min-h-screen bg-dark">
         <ModernParticleBackground />
-        <Navbar />
+     
         <Routes>
           <Route path="/" element={<Home />} />
  
