@@ -8,17 +8,17 @@ const projects = [
   {
     name: "ESG FORCE.AI",
     description: "ESG SaaS platform with AI for sustainability impact measurement",
-    tech: "AI, RAG, Cloud, React",
+    tech: "AI, RAG, Cloud, Angular",
     icon: <Brain className="w-8 h-8" />,
     link: "https://esgforce.ai",
     gradient: "from-green-500 to-blue-500"
   },
   {
-    name: "RAG Systems - Banorte",
-    description: "Production-grade Retrieval-Augmented Generation for financial decision-making",
-    tech: "LLMs, Pinecone, AWS, FastAPI",
+    name: "GO2GROW.AI",
+    description: "Connected global talent with companies, unlocking career growth and international opportunities.",
+    tech: "LLMs, Pinecone, AWS, Angular, Node.js",
     icon: <Cloud className="w-8 h-8" />,
-    link: "https://banorte.com",
+    link: "https://go2grow.ai/",
     gradient: "from-blue-500 to-purple-500"
   },
   {
@@ -34,7 +34,7 @@ const projects = [
     description: "AI-Powered Business Management platform",
     tech: "Angular, Laravel, AWS",
     icon: <Code className="w-8 h-8" />,
-    link: "https://ozaru.io",
+    link: "https://console.ozaru.one/",
     gradient: "from-orange-500 to-red-500"
   },
   {
