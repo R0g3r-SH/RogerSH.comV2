@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Navbar from './components/layout/Navbar'
+
 import Home from './pages/Home'
 import ModernParticleBackground from './components/ui/ParticleBackground'
 

@@ -64,7 +64,7 @@ const skills = [
 
 const Home = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [activeProject, setActiveProject] = useState<number | null>(null);
+
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -225,8 +225,7 @@ const Home = () => {
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
                 whileHover={{ y: -5 }}
-                onHoverStart={() => setActiveProject(index)}
-                onHoverEnd={() => setActiveProject(null)}
+             
                 className="group relative bg-white/5 rounded-xl p-6 backdrop-blur-sm border border-white/10 hover:border-white/20 transition-all duration-300 cursor-pointer"
                 onClick={() => window.open(project.link, '_blank')}
               >
