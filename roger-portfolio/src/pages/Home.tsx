@@ -26,7 +26,7 @@ const projects = [
     description: "B2B Networking & Market Insights platform",
     tech: "AI, React, Node.js",
     icon: <Globe className="w-8 h-8" />,
-    link: "https://circleai.com",
+    link: "https://github.com/Circle-AI-DEV/Circle-AI-MVP",
     gradient: "from-purple-500 to-pink-500"
   },
   {
@@ -42,7 +42,7 @@ const projects = [
     description: "Web Delivery Platform for restaurants",
     tech: "React, Django, MongoDB",
     icon: <Smartphone className="w-8 h-8" />,
-    link: "https://lareynaapp.com",
+    link: "https://github.com/R0g3r-SH/lareyna-app",
     gradient: "from-red-500 to-pink-500"
   },
   {
@@ -50,7 +50,7 @@ const projects = [
     description: "Secure Background Verification platform",
     tech: "React Native, Firebase",
     icon: <Database className="w-8 h-8" />,
-    link: "https://sherlockexpress.com",
+    link: "https://github.com/R0g3r-SH/SherlockAPI",
     gradient: "from-indigo-500 to-blue-500"
   }
 ];
